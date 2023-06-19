@@ -661,6 +661,10 @@ workflows:
       - name: Install npm dependencies for Ionic project
         script: |
           npm install
+      - name: Create IOS project
+        script: |
+          ionic capacitor copy ios
+          ionic capacitor update
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
