@@ -646,7 +646,7 @@ workflows:
         # Ionic Xcode worskspace and scheme
         XCODE_WORKSPACE: "ios/App/App.xcworkspace"
         XCODE_SCHEME: "App"
-      node: v16.11.1
+      node: v16.13.0
       xcode: latest
       cocoapods: default
     triggering:
